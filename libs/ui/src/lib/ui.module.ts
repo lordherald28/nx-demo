@@ -7,9 +7,11 @@ import { HeaderComponent } from './ui-header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { RouterModule} from '@angular/router';
 
+import {UtilsModule} from '@demo-inycom/utils';
+
 @NgModule({
-  imports: [CommonModule,RouterModule],
+  imports: [CommonModule,RouterModule,UtilsModule],
   declarations: [UiButtonComponent, UiInputComponent, UiTableComponent, HeaderComponent, MenuComponent],
-  exports: [UiButtonComponent, UiInputComponent, UiTableComponent, HeaderComponent],
+  exports: [UiButtonComponent, UiInputComponent, UiTableComponent, HeaderComponent,MenuComponent],
 })
 export class UiModule {}
