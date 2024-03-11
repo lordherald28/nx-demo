@@ -10,8 +10,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
      Delete this file and get started with your project!
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      -->
-  <lib-ui-input></lib-ui-input>
-  <lib-ui-ui-table> </lib-ui-ui-table>
   `,
   styles: [],
   encapsulation: ViewEncapsulation.None,
