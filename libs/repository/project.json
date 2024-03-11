@@ -1,0 +1,9 @@
+{
+  "name": "repository",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/repository/src",
+  "prefix": "demo-inycom",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

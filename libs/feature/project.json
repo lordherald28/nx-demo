@@ -1,0 +1,9 @@
+{
+  "name": "feature",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/feature/src",
+  "prefix": "cus",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
