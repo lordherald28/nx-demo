@@ -6,8 +6,6 @@ import { IMenuItems } from '@demo-inycom/utils';
   selector: 'lib-ui-app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css'],
-  // standalone: true,
-  // imports: [RouterModule, CommonModule]
 })
 export class MenuComponent implements OnInit {
 

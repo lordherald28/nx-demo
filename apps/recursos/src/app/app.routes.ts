@@ -1,15 +1,15 @@
 import { Route } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HomeComponent } from './page/home/home.component';
 
 export const appRoutes: Route[] = [
     {
         path:'',
-        component:NxWelcomeComponent,
+        component:HomeComponent,
         pathMatch:'full'
     },
-    {
-        path:'login',
-        loadChildren:() => import('@demo-inycom/feature').then(m=>m.FeatureModule),
-        title:'Login'
-    }
+    // {
+    //     path:'login',
+    //     loadChildren:() => import('@demo-inycom/feature').then(m=>m.FeatureModule),
+    //     title:'Login'
+    // }
 ];
