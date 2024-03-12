@@ -1,3 +1,37 @@
 .bg-header{
     background-color: #85144b;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #484747; */
+    background-color: #85144b;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    align-items: start;
+
+}
+
+.barcode-lookup-logo {
+    /* Logo container with a row layout and centered items */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barcode-lookup-logo span {
+    /* Specific styles for the span within the logo container */
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 1rem;
+}

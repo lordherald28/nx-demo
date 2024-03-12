@@ -18,7 +18,8 @@
       "@demo-inycom/common": ["common/src/index.ts"],
       "@demo-inycom/feature": ["libs/feature/src/index.ts"],
       "@demo-inycom/repository": ["libs/repository/src/index.ts"],
-      "@demo-inycom/ui": ["libs/ui/src/index.ts"]
+      "@demo-inycom/ui": ["libs/ui/src/index.ts"],
+      "@demo-inycom/utils": ["libs/utiles/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

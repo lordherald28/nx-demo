@@ -1,6 +1,6 @@
 // import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
-// import { Router, RouterModule } from '@angular/router';
+import { IMenuItems } from '@demo-inycom/utils';
 
 @Component({
   selector: 'lib-ui-app-menu',
@@ -11,7 +11,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  @Input() menuItems: unknown = null;
+  @Input() menuItems: IMenuItems[] = [];
   constructor() {/*   */}
 
   ngOnInit() { 
